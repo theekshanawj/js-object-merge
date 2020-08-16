@@ -1,4 +1,4 @@
-# js-object-merge
+# js-merge-object
 Utility method to merge nested JS objects recursively.
 
 ## Description
