@@ -28,7 +28,7 @@ merge({a : [1 ,2 ]}, { a: 5 });
 ## Add this to your application 
 
 ```shell script
-npm i js-object-merge
+npm i js-merge-object
 ```
 
 ## How to use
