@@ -1,6 +1,6 @@
 {
   "name": "js-merge-object",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Recursively merge nested JS objects",
   "main": "index.js",
   "scripts": {

@@ -34,7 +34,7 @@ npm i js-merge-object
 ## How to use
 
 ```javascript
-const merge = require('js-object-merge');
+const merge = require('js-merge-object');
 
 merge({ a: { b: 2 }}, {a: { c: 4 }});
 // {a: { b: 2, c: 4 } } -> Same key object are merged
