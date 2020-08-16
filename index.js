@@ -6,6 +6,12 @@
  * When same key is repeated along with a non object, precedence is given to latter object (Similar to Object.assign)
  * Ex: merge( { a: 1 },  { a: 3 } )
  * = { a: 3 }.
+ * If two arrays are available for same key if their first elements are of same type two will be merged
+ * Ex: merge({a : [1 ,2 ]}, { a: [5, 7] })
+ * = { a: [1,2, 5, 7] }
+ * If same key has an array and non-array, if the type of non-array element is same as first element of the array, results will be merged
+ * merge({a : [1 ,2 ]}, { a: 5 })
+ * = { a: [1,2, 5] }
  * @param params
  * @return {{}}
  */

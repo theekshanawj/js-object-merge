@@ -28,9 +28,4 @@ assert.deepStrictEqual({ a: { l: 2} }, merge({a : [1 ,2]}, { a: { l: 2} }));
 assert.deepStrictEqual({ a: [{ l: 2}] }, merge({a : [1 ,2]}, { a: [{ l: 2}] }));
 assert.deepStrictEqual({ a: 5 }, merge({a : null}, { a: 5 }));
 
-
-console.log(merge( { a: { b: { k: 1} } }, { a: { b: 3 } }));
-console.log(merge( { a: { c: 2 } }, { a: { b: 3 } }, { c: 3}, { a: { k: 5 }}));
-console.log(merge( { a: 1},  { a: 3 } ));
-
 console.log('All tests passed');
