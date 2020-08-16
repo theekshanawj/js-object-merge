@@ -1,0 +1,26 @@
+{
+  "name": "js-object-merge",
+  "version": "1.0.0",
+  "description": "Recursively merge nested JS objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theekshanawj/js-object-merge.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "JavaScript",
+    "Merge",
+    "Deep",
+    "Merge"
+  ],
+  "author": "Theekshana Wijesinghe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theekshanawj/js-object-merge/issues"
+  },
+  "homepage": "https://github.com/theekshanawj/js-object-merge#readme"
+}
