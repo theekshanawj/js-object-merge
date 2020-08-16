@@ -1,0 +1,18 @@
+{
+  "name": "js-object-merge",
+  "version": "1.0.0",
+  "description": "Recursively merge nested JS objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tests.js"
+  },
+  "keywords": [
+    "NodeJS",
+    "JavaScript",
+    "Merge",
+    "Deep",
+    "Merge"
+  ],
+  "author": "Theekshana Wijesinghe",
+  "license": "MIT"
+}
