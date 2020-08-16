@@ -17,7 +17,13 @@ If merge encounters,
 - An array and non-array element found with the same key, if type of non-array is similar to type of elements
 in the array, non-array element will be pushed to the array. 
 
+```javascript
+merge({ a : [1 ,2 ]}, { a: [5, 7] });
+// { a: [1, 2, 5, 7] } -> Arrays with same types will concat
 
+merge({a : [1 ,2 ]}, { a: 5 });
+// { a: [1, 2, 5 ] } -> Item will be pushed to an array with same type
+```
 
 ## Add this to your application 
 
@@ -38,9 +44,5 @@ merge( { a: 1}, { a: 3 });
 
 merge({ a : [1 ,2 ]}, { a: [5, 7] });
 // { a: [1, 2, 5, 7] } -> Arrays with same types will concat
-
-merge({a : [1 ,2 ]}, { a: 5 });
-// { a: [1, 2, 5 ] } -> Item will be pushed to an array with same type
-
 
 ```
